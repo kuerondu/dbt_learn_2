@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: customers
+    description: "Hey"
+    columns:
+      - name: id
+        description: "Hi"
+        tests:
+          - not_null
+          - unique
